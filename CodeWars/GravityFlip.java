@@ -5,6 +5,7 @@ flip('L', {1, 4, 5, 3, 5})  =>  {5, 5, 4, 3, 1}*/
 
 public class Kata {
     public static int[] flip(char dir, int[] arr) {
+        //using BubbleSort
         int i, j;
 
         if (dir == 'R') {
